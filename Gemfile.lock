@@ -1,0 +1,24 @@
+PATH
+  remote: .
+  specs:
+    stripe-event-mock (0.0.1)
+      multi_json
+      stripe
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    multi_json (1.15.0)
+    stripe (8.5.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  stripe-event-mock!
+
+RUBY VERSION
+   ruby 3.1.3p185
+
+BUNDLED WITH
+   2.4.5

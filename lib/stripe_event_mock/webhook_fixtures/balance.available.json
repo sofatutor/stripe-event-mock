@@ -1,0 +1,37 @@
+{
+  "id": "evt_000000000000000000000000",
+  "object": "event",
+  "api_version": "2020-08-27",
+  "created": 1648319937,
+  "data": {
+    "object": {
+      "object": "balance",
+      "available": [
+        {
+          "amount": 7648,
+          "currency": "usd",
+          "source_types": {
+            "card": 7648
+          }
+        }
+      ],
+      "livemode": false,
+      "pending": [
+        {
+          "amount": 37734,
+          "currency": "usd",
+          "source_types": {
+            "card": 37734
+          }
+        }
+      ]
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 2,
+  "request": {
+    "id": null,
+    "idempotency_key": null
+  },
+  "type": "balance.available"
+}

@@ -1,6 +1,9 @@
 # based on the event mocking from stripe-ruby-mock
 # see: https://github.com/stripe-ruby-mock/stripe-ruby-mock/blob/master/lib/stripe_mock/api/webhooks.rb
 
+require 'multi_json'
+require 'securerandom'
+
 module StripeEventMock
   class UnsupportedRequestError < StandardError; end
 

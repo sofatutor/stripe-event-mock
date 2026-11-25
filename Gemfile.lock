@@ -18,7 +18,7 @@ DEPENDENCIES
   stripe-event-mock!
 
 RUBY VERSION
-   ruby 3.1.3p185
+   ruby 4.0.10p0
 
 BUNDLED WITH
    2.4.5
